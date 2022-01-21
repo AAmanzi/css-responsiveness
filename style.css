@@ -1,0 +1,189 @@
+/*
+  Sections:
+  - COMMON
+  - NAVIGATION
+  - HEADER_HERO
+  - JOBS_SECTION
+  - APPLICATION
+
+  Colors:
+  #0a181b: background
+  #162426: backgroundLight
+  #30cec2: mainBlue
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* COMMON */
+
+.wrapper {
+  background-color: #0a181b;
+}
+
+.button {
+  padding: 16px 32px;
+  border-radius: 15px;
+  color: black;
+  background-color: #30cec2;
+  border: 1px solid #30cec2;
+}
+
+.button--alt {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.feature__title {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.feature__description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 280px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 92px;
+  background-color: #162426;
+}
+
+.navigation__links__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__link {
+  margin-right: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation__link--alt {
+  color: #30cec2;
+}
+
+.navigation__button {
+  padding: 8px 28px;
+  border-radius: 10px;
+}
+
+/* HEADER_HERO */
+
+.header-hero {
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-top: 108px;
+  padding-bottom: 356px;
+}
+
+.header__title {
+  font-size: 64px;
+  width: 880px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.header__title--alt {
+  color: #30cec2;
+}
+
+.header__location {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 16px;
+}
+
+/* JOBS_SECTION */
+
+.jobs-section {
+  padding-left: 92px;
+  padding-right: 92px;
+}
+
+.jobs-section__title {
+  color: #30cec2;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.jobs-wrapper {
+  display: flex;
+}
+
+.job {
+  background-color: #162426;
+  width: 400px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  margin-right: 32px;
+}
+
+.job:last-child {
+  margin-right: 0;
+}
+
+.job__title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.job__location {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* APPLICATION */
+
+.application {
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-top: 180px;
+  padding-bottom: 220px;
+}
+
+.application__title {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.application__content__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.application__feature {
+  margin-bottom: 80px;
+}
